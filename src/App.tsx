@@ -63,7 +63,7 @@ export default function App() {
               <img src={logoImage} alt="Grupo Hortsoy" className="h-16 object-contain" />
               <div className="border-l-2 border-gray-300 pl-4">
                 <h1 className="text-3xl font-bold text-gray-900">
-                  Calendário Corporativo 2026
+                  Calendário HortSoy
                 </h1>
                 <p className="text-sm text-gray-600">Grupo Hortsoy - Agronegócio</p>
               </div>
@@ -136,7 +136,7 @@ export default function App() {
       <footer className="bg-white border-t border-gray-200 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-center text-gray-600 text-sm">
-            © 2026 Grupo Hortsoy - Calendário Corporativo
+            © 2026 Calendário HortSoy - Grupo Hortsoy
           </p>
         </div>
       </footer>
