@@ -4,7 +4,7 @@
 
 **Portal Corporativo de Gestão de Eventos e Calendário Agrícola**
 
-[![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?logo=vite)](https://vitejs.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?logo=vite)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
@@ -63,7 +63,7 @@ Este projeto implementa medidas de segurança de nível industrial para garantir
 ### Core
 | Tecnologia | Versão | Uso |
 |---|---|---|
-| [Vite](https://vitejs.dev/) | 8.x | Ferramenta de build ultra-rápida com motor OXC |
+| [Vite](https://vitejs.dev/) | 7.x | Ferramenta de build ultra-rápida e segura |
 | [React](https://react.dev/) | 18.x | Biblioteca para construção de interfaces reativas |
 | [TypeScript](https://www.typescriptlang.org/) | 5.x | Tipagem estática para robustez e segurança |
 
