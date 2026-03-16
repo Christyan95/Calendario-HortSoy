@@ -10,12 +10,15 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      // Alias @ to the src directory
       '@': path.resolve(__dirname, './src'),
       'figma:asset': path.resolve(__dirname, './src/assets'),
     },
   },
-
-  // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
+  esbuild: {
+    drop: ['console', 'debugger'],
+  },
+  build: {
+    sourcemap: false,
+  },
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
