@@ -201,7 +201,7 @@ export const additionalInfo = [
   },
   {
     title: 'Reuniões de Liderança Administrativa',
-    description: 'S(mensal)',
+    description: '(mensal)',
   },
   {
     title: 'Aniversariante do mês',
