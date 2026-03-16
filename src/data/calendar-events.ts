@@ -1,8 +1,8 @@
-export type EventType = 
-  | 'feriado' 
-  | 'campanha' 
-  | 'reuniao' 
-  | 'pagamento' 
+export type EventType =
+  | 'feriado'
+  | 'campanha'
+  | 'reuniao'
+  | 'pagamento'
   | 'administrativo';
 
 export interface CalendarEvent {
@@ -160,14 +160,14 @@ export const calendarEvents: CalendarEvent[] = [
     type: 'feriado',
     icon: 'Users',
   },
-  {
-    id: '20',
-    date: new Date(2026, 11, 24),
-    title: 'Véspera de Natal',
-    description: 'Saída às 13h',
-    type: 'administrativo',
-    icon: 'Clock',
-  },
+  // {
+  //   id: '20',
+  //   date: new Date(2026, 11, 24),
+  //   title: 'Véspera de Natal',
+  //   description: 'Saída às 13h',
+  //   type: 'administrativo',
+  //   icon: 'Clock',
+  // },
   {
     id: '21',
     date: new Date(2026, 11, 25),
@@ -184,14 +184,14 @@ export const calendarEvents: CalendarEvent[] = [
     type: 'campanha',
     icon: 'TreePine',
   },
-  {
-    id: '23',
-    date: new Date(2026, 11, 31),
-    title: 'Véspera de Ano novo',
-    description: 'Saída às 13h',
-    type: 'administrativo',
-    icon: 'Clock',
-  },
+  // {
+  //   id: '23',
+  //   date: new Date(2026, 11, 31),
+  //   title: 'Véspera de Ano novo',
+  //   description: 'Saída às 13h',
+  //   type: 'administrativo',
+  //   icon: 'Clock',
+  // },
 ];
 
 export const additionalInfo = [
@@ -201,7 +201,7 @@ export const additionalInfo = [
   },
   {
     title: 'Reuniões de Liderança Administrativa',
-    description: 'IEE Lidera (mensal)',
+    description: 'S(mensal)',
   },
   {
     title: 'Aniversariante do mês',
